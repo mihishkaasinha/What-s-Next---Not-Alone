@@ -7,15 +7,24 @@ font-weight: normal;
 font-size: 17px;
 padding: 0px;
 padding-left: 15px;
-color: rgb(255, 255, 255);
+color: rgb(2, 36, 33);
 }
 
 body {
-  background-color: #16ADD2;
+  /* background-image:url('helpinghand.jpg'); */
+  background: url("image.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   }
 
   .newbody {
-    background-color: #16ADD2;
+  background: url('https://cdn1.vectorstock.com/i/1000x1000/86/15/black-polygonal-mosaic-background-creative-design-vector-24168615.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 html {
@@ -77,7 +86,7 @@ text-align: center;
   }
 
 .img {
-border: 2px solid #ffffff;
+border: 2px solid #000000;
 border-radius: 50px;
 padding: 10%;
 }
@@ -87,13 +96,14 @@ display: none;
 padding: 6px 12px;
 border: 1px solid #ccc;
 border-top: none;
-font-family: 'Bubblegum Sans';
+color: white;
 }
 
 span {
-
-font-weight: bold;
-
+font-weight: bolder;
+color: white;
+font-family: 'Maiandra GD';
+font-size: 20px;
 }
 
 th, td {
@@ -101,9 +111,9 @@ padding: center;
 text-align: left;
 }
 table {
-border: 1px solid rgb(255, 255, 255);
+border: 1px solid black;
 border-collapse: collapse;
-border: 10px solid rgb(255, 255, 255);
+border: 1px solid black;
 
 }
 
@@ -113,13 +123,21 @@ margin-right: auto;
 }
 
 .bg {
-    background-color: #16ADD2;
+/* The image used */
+background-image: url("background.jfif");
+
+/* Full height */
+height: 100%;
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 .centeralign {
-  color: rgb(255, 255, 255);
-  font-family: 'Cookie';
-  font-size: 50px;
+  color: white;
+  font-family: 'Acme';
 }
 
 
@@ -131,3 +149,5 @@ button {
   background: rgb(255, 208, 0);
   border: none;
 }
+
+/*rgb(15, 214, 221)
